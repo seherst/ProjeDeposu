@@ -1,14 +1,17 @@
-body {background-color:gray;}
-.taslak{width: 930px; height: auto;background-color: #f2ccff; margin:30px auto;}
+body {background-color:#d1d1e0;}
+.taslak{width: 930px; height: auto;background-color: #f2ccff; margin:30px auto 100px auto;}
 .ust{width:930px; height:150px; margin:0 0 20px 0;}
 .menu{width:930px; height:45px; background-color: #fff; float: left;}
 .tuzlu{width:930px;height:250px; float: left; margin: 10px 0 0 0;}
 .tatlı{width:930px;height:250px; float: left; margin: 10px 0 0 0;}
 .salata{width:930px;height:250px; float: left; margin: 10px 0 0 0;}
+.alt{width:930px; height:150px; float: left; margin:10px 0 0 0; background:url(resimler/alt.png);}
 
 
 
 .menu ul{list-style: none;}
 .menu ul li{float: left;}
+.menu form button{float: right; width: 40px; height: auto; font: 16px tahoma; margin: 0 15px 15px 0;}
+.menu form input{float: right; width:170px; height: auto; font:16px tahoma; margin: 0 0 15px 0;}
 .menu a{ display: block; width: 90px; height: 45px; text-decoration: none; text-align: center; font: 16px tahoma; color:#3e124d; }
 .menu a:hover{ text-decoration: underline;}
