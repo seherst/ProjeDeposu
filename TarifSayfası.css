@@ -1,0 +1,11 @@
+.body{background-color: #d1d1e0;}
+.taslak{width: 930px; height: auto; margin: 10px auto;}
+.ust{width:930px;height: 80px; background-image: url(resimler/ust.png);}
+.orta{width: 930px; height: auto; margin: 10px 0 0 0; background-image:url(resimler/orta.png);}
+
+.orta p{font:40px bold Ariel Rounded MT; padding: 10px 0 0 10px; text-align: center;}
+img{margin: 0 0 0 240px;}
+.orta ul{text-align: center; list-style: none; font: 23px bold Ariel Rounded MT;}
+.orta ul li{font: 18px Ariel Rounded MT;}
+.orta ol{text-align: center; list-style: none; font: 23px bold Ariel Rounded MT;}
+.orta ol li{font: 18px Ariel Rounded MT;}
