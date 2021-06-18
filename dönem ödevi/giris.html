@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Tarif Günlüğüm | Giriş Yap</title>
+        <link rel="stylesheet" href="kayıt.css">
+
+    </head>
+    <body>
+        <div class="giris" >
+            <form action="" id="giris">
+                <h2>Giriş Yap</h2>
+                <input type="text" placeholder="Kullanıcı Adı" id="kullanici" ><br>
+                <input type="password" placeholder="Şifre" id="sifre"><br>
+                <input onclick="giris()" type="submit" value="Giriş Yap"> </br>
+                <p>Hesabınız yok mu?<a href="kayıt.html"> Kayıt Ol</a></p>
+
+            </form>
+
+        </div>
+        <script>
+
+            function giris(){
+                if(kullanici.value=="" && sifre.value==""){
+                    alert("Kullanıcı adı veya şifre boş bırakılamaz")
+                }
+            }
+
+        </script>
+    </body>
+</html>

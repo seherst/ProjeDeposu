@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Tarif Günlüğüm | Kayıt Ol</title>
+        <link rel="stylesheet" href="kayıt.css">
+
+    </head>
+    <body>
+        <div class="giris" >
+            <form action="">
+                <h2>Kayıt Ol</h2>
+                <input type="text" placeholder="İsim" id="isim"><br>
+                <input type="text" placeholder="Soyisim" id="soyisim"><br>
+                <input type="text" placeholder="Kullanıcı Adı" id="kullanici"><br>
+                <input type="email" placeholder="E-posta" id="posta"><br>
+                <input type="password" placeholder="Şifre" id="sifre" minlength="7" maxlength="15"><br>
+                <input onclick="kayit()" type="submit" value="Kayıt ol" id="click" ></br>
+
+            </form>
+
+        </div>
+        <script>
+
+            function kayit(){
+                if(isim.value=="" && soyisim.value=="" && kullanici.value=="" && posta.value=="" && sifre.value=="")
+                {
+                    alert("Bilgiler boş bırakılamaz!")
+                }
+            
+            }
+        </script>
+    </body>
+</html>

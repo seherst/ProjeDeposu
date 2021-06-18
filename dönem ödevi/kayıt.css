@@ -1,0 +1,67 @@
+.giris
+{
+    background: url(resimler/arkaplan.png);
+   background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+form{
+    background-color: #42424233;
+    padding: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+}
+
+form h2 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+form input{
+    
+    border:none;
+    background: none;
+    text-align: center;
+    outline: none;
+    padding: 5px;
+    margin: 5px;
+    color: #F8EFBA;
+    height: 30px;
+    width: 70%;
+    border-radius: 40px;
+    transition: 0.3s linear;
+
+}
+form input[type="text"], form input[type="password"],form input[type="email"]{
+    border:solid 2px #182C61;
+    color: white;
+}
+
+form input[type="submit"]{
+    
+    border:solid 2px #58B19F;
+    box-sizing: border-box;
+    height: 50px;
+    width: 40%;
+}
+
+form input[type="text"]:focus, form input[type="password"]:focus,form input[type="email"]:focus{
+   width: 80%;
+   border:solid 2px #58B19F;
+}
+
+form input[type="submit"]:hover{
+    background: #58B19F;
+
+}
+
+#giris{height: 320px;}
+
